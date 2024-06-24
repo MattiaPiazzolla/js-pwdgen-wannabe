@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.full-height{
+    min-height: 100vh;
+}
+
+.btn{
+    transition: all 0.25s;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+.btn:active{
+    transform: scale(1.05);
+}
+
+#passwordPhrase .not-safe{
+    transition: all .5s;
+}
+
+.not-safe:hover{
+    transform: scale(1.1);
+}
